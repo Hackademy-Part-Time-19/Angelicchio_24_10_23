@@ -37,24 +37,28 @@ body{
     background-color: white;
     border-bottom: 1px solid black;
     margin-top: 0;
+    display: flex;
+    flex-direction: row;
 }
 
 div > span{
     font-size: 3vh;
     margin-left: 5%;
     font-weight: bolder;
+    margin-top: 4%;
 }
 
 i{
     font-size: 4vh;
-    margin-left: 10px;
+    margin-left: 10%;
     padding: 3%;
+    border-radius: 50%;
     transition: background-color 0.5s;
 }
 
 i:hover{
     background-color: gray;
-    border-radius: 50%;
+    
 }
 
 .custom-search{
@@ -70,10 +74,34 @@ i:hover{
     height: 100%;
     width: 100%;
     margin-top: 5%;
+    overflow-y: auto;
 }
 
 .chat-utente{
     border: 1px solid black;
     height: 11vh;
     width: 100%;
+    background-color: rgb(237, 250, 250);
+    transition: background-color 0.5s;
+    display: flex;
+}
+
+img{
+    border-radius: 50%;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.chat-utente:hover{
+    background-color: rgb(205, 205, 205);
+}
+
+.utente{
+    font-size: 3vh;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.nota-utente{
+    font-size: 2vh;
 }
